@@ -45,3 +45,7 @@ Function  =>  function
 Object  =>  object
 */
 
+
+// ++++++++++++++++++++++++++++++++++++++++
+// Stack(Primitive) amd Heap (Non-Primitive)
+

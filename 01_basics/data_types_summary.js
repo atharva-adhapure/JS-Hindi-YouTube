@@ -27,7 +27,7 @@ let Obj = {
 const myFunction =function(){
     console.log("Hello World");
 }
-console.log(typeof bigNumber)
+// console.log(typeof bigNumber)
 
 //Return type of variables in JavaScript
 /*1) Primitive Datatypes
@@ -49,3 +49,23 @@ Object  =>  object
 // ++++++++++++++++++++++++++++++++++++++++
 // Stack(Primitive) amd Heap (Non-Primitive)
 
+let myYoutubeName = "Blaze"
+let anotherName = myYoutubeName
+
+anotherName = "Atharva Adhapure"
+
+console.log(myYoutubeName)
+console.log(anotherName)
+
+
+let user = {
+    email: "user@google.com",
+    upi : "user@ybl"
+}
+
+let user2 = user
+
+user2.email = "Atharva@google.com"
+
+console.log(user2.email)
+console.log(user.email)

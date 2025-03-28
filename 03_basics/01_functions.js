@@ -29,4 +29,10 @@ function loginuserMessage(username = "Sam"){
     return `${username} just logged in`
 }
 
-console.log(loginuserMessage("Atharva"))
+// console.log(loginuserMessage("Atharva"))
+
+function calculateCartPrice(...num1){
+    return num1
+}
+
+console.log(calculateCartPrice(200, 400, 600))

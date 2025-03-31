@@ -31,8 +31,19 @@ function loginuserMessage(username = "Sam"){
 
 // console.log(loginuserMessage("Atharva"))
 
-function calculateCartPrice(...num1){
-    return num1
+function calculateCartPrice(val1, val2,...num1){
+    return num1;
 }
 
-console.log(calculateCartPrice(200, 400, 600))
+// console.log(calculateCartPrice(200, 400, 600))
+
+const user = {
+    username:"Atharva",
+    price: 199
+}
+
+function handleObjects(anyobject){
+    console.log(`Username is ${anyobject.username} and the price is ${anyobject.price}`)
+}
+
+handleObjects(user)

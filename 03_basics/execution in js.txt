@@ -1,0 +1,25 @@
+            JavaScript execution context
+
+    ** Types of execution context 
+            1) Global execution Context.   (In browser "this" gives us the window object) 
+            2) Functional execution context
+            3) Eval execution context 
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++
+
+How JS code is executed
+
+There are two phases 
+1) Memory creation phase (also known as creation phase)
+2) Execution phase
+
+
+ex 
+if there is a code you want to run then it first goes throDuring global execution, code is assigned to the "this" context. Subsequently, in the memory allocation phase, memory is allocated to each variable. Then, during the execution phase, values are assigned to those variables.
+
+Whenever a function is executed, a new execution environment is created, comprising a new variable environment and an execution thread. The memory allocation and execution phases are then repeated within this new environment for each function (or the number of times the function is being. called )
+
+
+the obtained or returned value from the function is then sent to the global execution context
+and after the execution of the function, the newly created execution context is deleted.

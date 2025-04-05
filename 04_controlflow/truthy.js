@@ -18,8 +18,34 @@
     
 // }
 
-const emptyObj = {}
+// const emptyObj = {}
 
-if(Object.keys(emptyObj).length){
-    console.log("Objext is empty"); 
-}
+// if(Object.keys(emptyObj).length){
+//     console.log("Objext is empty"); 
+// }
+
+// Nullish Calescing Operation : ??
+// agar null value aaye toh usko check krega 
+
+
+let val1 ;
+// val1 = 5 ?? 10;
+// val1 = null ?? 10;
+// val1 = undefined ?? 15
+// val1 = null ?? 15?? 5
+
+
+// console.log(val1)
+
+
+// Ternary Operator (?)
+
+//Syntax 
+// Condition? true : false
+
+let iceTeaPrice  = 100
+
+iceTeaPrice <= 80? console.log("Price less than 80"): console.log("more than 80");
+
+
+

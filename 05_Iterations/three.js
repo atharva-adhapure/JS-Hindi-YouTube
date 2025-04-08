@@ -27,3 +27,13 @@ map.set('In', "India");
 for (const [key, value] of map) {
     console.log(key ,":-", value)
 }
+
+const myObj ={
+    game1: 'NFS',
+    game2: "spiderman"
+}
+
+// for (const [key, value] of myObj) {
+//     console.log(key,":-", value);   // Objects are not iterable in this fashion
+// }
+

@@ -4,7 +4,7 @@ const dc_heros = ["Batman", "Superman", "Aquaman"]
 // marvel_heros.push(dc_heros)
 
 // console.log(marvel_heros);
-//marvel_heros.concat(dc_heros)  // cannot write like this as this returns a new array
+// marvel_heros.concat(dc_heros)  // cannot write like this as this returns a new array
 
 // let all_heros = marvel_heros.concat(dc_heros)
 // console.log(all_heros);

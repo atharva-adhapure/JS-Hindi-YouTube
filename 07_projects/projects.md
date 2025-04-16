@@ -1,4 +1,5 @@
-### Solution Code
+# Solution Code
+## Project 1
 
 ```javascript
 const btns = document.querySelectorAll('button');

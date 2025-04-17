@@ -18,6 +18,7 @@ btns.forEach(function (btn){
        }
        if(e.target.id == "blue"){
         body.style.backgroundColor = e.target.id; 
+       }
     })
 });
 ```
